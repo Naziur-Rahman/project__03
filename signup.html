@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E - School</title>
+    <!-- tailwind css or daisy ui link-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- box icon link  -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <!-- nav section  -->
+        <div class="navbar bg-[#F0FFF0]">
+            <div class="navbar-start lg:ml-20">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-xl font-semibold text-[#000000] bg-[#F0FFF0] ">
+                  <li><a class="hover:text-sky-900 hover:underline " href="index.html">Home</a></li>
+                  <li><a class="hover:text-sky-900 hover:underline " href="books.html">Books</a></li>
+                  <li><a class="hover:text-sky-900 hover:underline " href="course.html">Courses</a></li>
+                  <li><a class="hover:text-sky-900 hover:underline " href="contact.html">Contact</a></li>
+                  <li><a class="hover:text-sky-900 hover:underline " href="blog.html">Blog</a></li>
+                </ul>
+              </div>
+              <a class=" lg:mt-8 text-xl"><img src="./asset/imeage/ICON/Logo.png" alt="" class="w-44"></a>
+            </div>
+            <div class="navbar-center hidden lg:flex  lg:mt-8">
+              <ul class="menu menu-horizontal px-1 text-xl font-semibold text-[#000000] ">
+                <li><a class="hover:text-sky-900 hover:underline " href="index.html">Home</a></li>
+                <li><a class="hover:text-sky-900 hover:underline " href="books.html">Books</a></li>
+                <li><a class="hover:text-sky-900 hover:underline " class="hover:text-sky-900 hover:underline " href="course.html">Courses</a></li>
+                <li><a class="hover:text-sky-900 hover:underline " href="contact.html">Contact</a></li>
+                <li><a class="hover:text-sky-900 hover:underline " href="blog.html">Blog</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end  lg:mt-8 mr-7 lg:mr-20">
+              <a href="signup.html" class="rounded-3xl px-4 lg:px-7 py-2 lg:py-3 text-[#FFFFFF] font-[Roboto] text-lg font-medium bg-[#21B573] hover:bg-emerald-800 hover:underline">Sign Up</a>
+              
+            </div>
+          </div>
+          <section class="px-10 bg-[#F0FFF0]">
+            <div class="bg-[#F0FFF0]">
+                <div class="pb-10 ">
+                    <!-- <h1 class="text-[#413960] font-bold text-4xl font-[Poppins] text-center p-5 mb-10">Contact <span class="text-sky-500">Us</span></h1> -->
+                    <div class="hero h-40 " style="background-image: url(./asset/imeage/blog/sign-up-button-png-29.jpg);">
+                      <div class="hero-overlay bg-opacity-60"></div>
+                      <div class="hero-content text-center text-neutral-content">
+                        
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- sing up section  -->
+    <main class="bg-[#F0FFF0]">
+        <div class="min-h-screen py-40" style="background-image: linear-gradient(115deg, #9F7AEA, #FEE2FE)">
+            <div class="container mx-auto">
+              <div class="flex flex-col lg:flex-row w-10/12 lg:w-8/12 bg-white rounded-xl mx-auto shadow-lg overflow-hidden">
+                <div class="w-full lg:w-1/2 flex flex-col items-center justify-center p-12 bg-no-repeat bg-cover bg-center" style="background-image: url('./asset/imeage/blog/Register-Background.png');">
+                  <h1 class="text-white text-3xl mb-3">Welcome</h1>
+                  <div>
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suspendisse aliquam varius rutrum purus maecenas ac <a href="#" class="text-purple-500 font-semibold">Learn more</a></p>
+                  </div>
+                </div>
+                <div class="w-full lg:w-1/2 py-16 px-12">
+                  <h2  class="text-3xl mb-4">Sign Up</h2>
+                  <p class="mb-4">
+                    Create your account. It’s free and only take a minute
+                  </p>
+                  <form action="#">
+                    <div class="grid grid-cols-2 gap-5">
+                      <input type="text" placeholder="Firstname" class="border border-gray-400 py-1 px-2">
+                      <input type="text" placeholder="Surname" class="border border-gray-400 py-1 px-2">
+                    </div>
+                    <div class="mt-5">
+                      <input type="text" placeholder="Email" class="border border-gray-400 py-1 px-2 w-full">
+                    </div>
+                    <div class="mt-5">
+                      <input type="password" placeholder="Password" class="border border-gray-400 py-1 px-2 w-full">
+                    </div>
+                    <div class="mt-5">
+                      <input type="password" placeholder="Confirm Password" class="border border-gray-400 py-1 px-2 w-full">
+                    </div>
+                    <div class="mt-5">
+                      <input type="checkbox" class="border border-gray-400">
+                      <span>
+                        I accept the <a href="#" class="text-purple-500 font-semibold">Terms of Use</a> &  <a href="#" class="text-purple-500 font-semibold">Privacy Policy</a> 
+                      </span>
+                    </div>
+                    <div class="mt-5">
+                      <button onclick="popup()" class="w-full bg-purple-500 py-3 text-center  text-white">Sign Up Now</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </main>
+    <!-- footer section  -->
+    <footer class="footer p-10 bg-[#282531] text-base-content text-[#FFF]">
+        <aside>
+         <p class="text-base font-[Poppins] text-[#FFF] font-medium lg:ml-24">Millions of people of all ages and from around <br> the world are improving their lives with us</p>
+        </aside> 
+        <nav>
+          <header class="footer-title">Course</header> 
+          <a class="link link-hover">Graphic Design</a>
+          <a class="link link-hover">Web Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Business</a>
+          <a class="link link-hover">Engineering</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Terms</header> 
+          <a class="link link-hover">Graphic Design</a>
+          <a class="link link-hover">Web Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Business</a>
+          <a class="link link-hover">Engineering</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Useful Link</header> 
+          <a class="link link-hover">Graphic Design</a>
+          <a class="link link-hover">Web Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Business</a>
+          <a class="link link-hover">Engineering</a>
+        </nav>
+      </footer>
+      <!-- js link  -->
+      <script src="./asset/js/school.js"></script>
+</body>
+</html>

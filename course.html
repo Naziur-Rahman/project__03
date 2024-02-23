@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E - School</title>
+    <!-- tailwind css or daisy ui link-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- box icon link  -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <!-- nav section  -->
+        <div class="navbar bg-[#F0FFF0]">
+            <div class="navbar-start lg:ml-20">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-xl font-semibold text-[#000000] bg-[#F0FFF0] ">
+                  <li><a class="hover:text-sky-900 hover:underline " href="index.html">Home</a></li>
+                  <li><a class="hover:text-sky-900 hover:underline " href="books.html">Books</a></li>
+                  <li><a class="hover:text-sky-900 hover:underline " href="course.html">Courses</a></li>
+                  <li><a class="hover:text-sky-900 hover:underline " href="contact.html">Contact</a></li>
+                  <li><a class="hover:text-sky-900 hover:underline " href="blog.html">Blog</a></li>
+                </ul>
+              </div>
+              <a class=" lg:mt-8 text-xl"><img src="./asset/imeage/ICON/Logo.png" alt="" class="w-44"></a>
+            </div>
+            <div class="navbar-center hidden lg:flex  lg:mt-8">
+              <ul class="menu menu-horizontal px-1 text-xl font-semibold text-[#000000] ">
+                <li><a class="hover:text-sky-900 hover:underline " href="index.html">Home</a></li>
+                <li><a class="hover:text-sky-900 hover:underline " href="books.html">Books</a></li>
+                <li><a class="hover:text-sky-900 hover:underline " class="hover:text-sky-900 hover:underline " href="course.html">Courses</a></li>
+                <li><a class="hover:text-sky-900 hover:underline " href="contact.html">Contact</a></li>
+                <li><a class="hover:text-sky-900 hover:underline " href="blog.html">Blog</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end  lg:mt-8 mr-7 lg:mr-20">
+              <a href="signup.html" class="rounded-3xl px-4 lg:px-7 py-2 lg:py-3 text-[#FFFFFF] font-[Roboto] text-lg font-medium bg-[#21B573] hover:bg-emerald-800 hover:underline">Sign Up</a>
+              
+            </div>
+          </div>
+    </header>
+    <main>
+       
+        <!-- Online Courses section  -->
+        <section class="px-10 py-10 bg-[#F0FFF0]">
+            <div>
+                <div>
+                    <h1 class="text-[#413960] font-bold text-4xl font-[Poppins] text-center p-5 mb-10">Our <span class="text-sky-500">Courses</span></h1>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+                    <!-- card 1 -->
+                    <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/course/english-writing-course.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">English Writing</h2>
+                          <p class="text-[#585859] font-[Poppins]">Mrs Dalloway</p>
+                          <p class="text-[#585859] font-[Poppins]">$1200</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 2 -->
+                      <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/course/english_for_everyday_16x9.webp" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">English For Everyday</h2>
+                          <p class="text-[#585859] font-[Poppins]">Mrs Dalloway</p>
+                          <p class="text-[#585859] font-[Poppins]">$900</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 3 -->
+                      <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/course/facebook-marketing-course.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">Facebook Marketing</h2>
+                          <p class="text-[#585859] font-[Poppins]">Mrs Dalloway</p>
+                          <p class="text-[#585859] font-[Poppins]">$1200</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 4 -->
+                      <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/course/IELTS_Mock_Test_Solutions_Course-Thumbnail_16_9.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">IELTS Mock Test</h2>
+                          <p class="text-[#585859] font-[Poppins]">Mrs Dalloway</p>
+                          <p class="text-[#585859] font-[Poppins]">$390</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 5 -->
+                      <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/course/online-personal-finance-course-thumbnail.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">Online Finance</h2>
+                          <p class="text-[#585859] font-[Poppins]">Mrs Dalloway</p>
+                          <p class="text-[#585859] font-[Poppins]">$390</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 6 -->
+                      <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/course/pronounciation-mistake-course.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">Pronounciation Mistake</h2>
+                          <p class="text-[#585859] font-[Poppins]">Mrs Dalloway</p>
+                          <p class="text-[#585859] font-[Poppins]">$390</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 7 -->
+                      <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/course/shobar-jonno-vocabulary.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">shobar jonno vocabulary</h2>
+                          <p class="text-[#585859] font-[Poppins]">Mrs Dalloway</p>
+                          <p class="text-[#585859] font-[Poppins]">$390</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 8 -->
+                      <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/course/study-abroad-complete-guideline-thumbnail-new.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">study abroad complete guideline</h2>
+                          <p class="text-[#585859] font-[Poppins]">Mrs Dalloway</p>
+                          <p class="text-[#585859] font-[Poppins]">$390</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 9 -->
+                      <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/course/Web-Design-course.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">Web-Design</h2>
+                          <p class="text-[#585859] font-[Poppins]">Mrs Dalloway</p>
+                          <p class="text-[#585859] font-[Poppins]">$390</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 10 -->
+                      <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/course/english_for_everyday_16x9.webp" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">english for everyday</h2>
+                          <p class="text-[#585859] font-[Poppins]">Mrs Dalloway</p>
+                          <p class="text-[#585859] font-[Poppins]">$390</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 11 -->
+                      <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/course/IELTS_Mock_Test_Solutions_Course-Thumbnail_16_9.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">IELTS Mock Test</h2>
+                          <p class="text-[#585859] font-[Poppins]">Mrs Dalloway</p>
+                          <p class="text-[#585859] font-[Poppins]">$390</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 12 -->
+                      <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/course/online-personal-finance-course-thumbnail.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">Online Finance</h2>
+                          <p class="text-[#585859] font-[Poppins]">Mrs Dalloway</p>
+                          <p class="text-[#585859] font-[Poppins]">$390</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                     
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <!-- footer section  -->
+    <footer class="footer p-10 bg-[#282531] text-base-content text-[#FFF]">
+        <aside>
+         <p class="text-base font-[Poppins] text-[#FFF] font-medium lg:ml-24">Millions of people of all ages and from around <br> the world are improving their lives with us</p>
+        </aside> 
+        <nav>
+          <header class="footer-title">Course</header> 
+          <a class="link link-hover">Graphic Design</a>
+          <a class="link link-hover">Web Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Business</a>
+          <a class="link link-hover">Engineering</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Terms</header> 
+          <a class="link link-hover">Graphic Design</a>
+          <a class="link link-hover">Web Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Business</a>
+          <a class="link link-hover">Engineering</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Useful Link</header> 
+          <a class="link link-hover">Graphic Design</a>
+          <a class="link link-hover">Web Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Business</a>
+          <a class="link link-hover">Engineering</a>
+        </nav>
+      </footer>
+</body>
+</html>

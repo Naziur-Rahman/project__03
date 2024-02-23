@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E - School</title>
+    <!-- tailwind css or daisy ui link-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- box icon link  -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <!-- nav section  -->
+        <div class="navbar bg-[#F0FFF0]">
+          <div class="navbar-start lg:ml-20">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-xl font-semibold text-[#000000] bg-[#F0FFF0] ">
+                <li><a class="hover:text-sky-900 hover:underline " href="index.html">Home</a></li>
+                <li><a class="hover:text-sky-900 hover:underline " href="books.html">Books</a></li>
+                <li><a class="hover:text-sky-900 hover:underline " href="course.html">Courses</a></li>
+                <li><a class="hover:text-sky-900 hover:underline " href="contact.html">Contact</a></li>
+                <li><a class="hover:text-sky-900 hover:underline " href="blog.html">Blog</a></li>
+              </ul>
+            </div>
+            <a class=" lg:mt-8 text-xl"><img src="./asset/imeage/ICON/Logo.png" alt="" class="w-44"></a>
+          </div>
+          <div class="navbar-center hidden lg:flex  lg:mt-8">
+            <ul class="menu menu-horizontal px-1 text-xl font-semibold text-[#000000] ">
+              <li><a class="hover:text-sky-900 hover:underline " href="index.html">Home</a></li>
+              <li><a class="hover:text-sky-900 hover:underline " href="books.html">Books</a></li>
+              <li><a class="hover:text-sky-900 hover:underline " class="hover:text-sky-900 hover:underline " href="course.html">Courses</a></li>
+              <li><a class="hover:text-sky-900 hover:underline " href="contact.html">Contact</a></li>
+              <li><a class="hover:text-sky-900 hover:underline " href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end  lg:mt-8 mr-7 lg:mr-20">
+            <a href="signup.html" class="rounded-3xl px-4 lg:px-7 py-2 lg:py-3 text-[#FFFFFF] font-[Roboto] text-lg font-medium bg-[#21B573] hover:bg-emerald-800 hover:underline">Sign Up</a>
+            
+          </div>
+        </div>
+    </header>
+    <main>
+       
+        <!-- Online books section  -->
+        <section class="px-10 bg-[#F0FFF0]">
+            <div class="bg-[#F0FFF0]">
+                <div>
+                    <h1 class="text-[#413960] bg-[#F0FFF0] font-bold text-4xl font-[Poppins] text-center p-5 mb-10">Our <span class="text-sky-500">Books</span></h1>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-20">
+                    <!-- card 1 -->
+                    <div class="card  bg-base-100 shadow-xl h-auto">
+                        <figure><img src="./asset/imeage/Photos/Beloved.jfif" class="w-[200px] lg:w-[331px] lg:h-[331px] mt-6 px-5 py-5" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-[#413960] font-[Poppins] text-2xl font-medium -mt-4 ">Beloved</h2>
+                          <div class="flex">
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">Author:	J. R. R. Tolkien</p>
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">$500</p>
+                          </div>
+                          <button class="rounded-3xl  lg:px-2 py-2 w-20 lg:w-28 text-[#FFFFFF] font-[Roboto]  text-sm lg:text-lg font-medium bg-[#21B573]">Buy Now</button>
+                          
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/Photos/To Kill a Mockingbird.jfif" class="lg:w-[331px] lg:h-[331px] mt-6 px-5 py-5 w-[200px]" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-[#413960] font-[Poppins] text-2xl font-medium -mt-4">To Kill a Mockingbird
+                        </h2>
+                        <div class="flex">
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">Author:	J. R. R. Tolkien</p>
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">$500</p>
+                          </div>
+                          <button class="rounded-3xl  lg:px-2 py-2 w-20 lg:w-28 text-[#FFFFFF] font-[Roboto]  text-sm lg:text-lg font-medium bg-[#21B573]">Buy Now</button>
+                          
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/Photos/Mrs Dalloway.jfif" class="lg:w-[331px] lg:h-[331px] mt-6 px-5 py-5 w-[200px]" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-[#413960] font-[Poppins] text-2xl font-medium -mt-4">Mrs Dalloway</h2>
+                          <div class="flex">
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">Author:	J. R. R. Tolkien</p>
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">$500</p>
+                          </div>
+                          <button class="rounded-3xl  lg:px-2 py-2 w-20 lg:w-28 text-[#FFFFFF] font-[Roboto]  text-sm lg:text-lg font-medium bg-[#21B573]">Buy Now</button>
+                          
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/Photos/Don Quixote.jfif" class="lg:w-[331px] lg:h-[331px] mt-6 px-5 py-5 w-[200px]" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-[#413960] font-[Poppins] text-2xl font-medium -mt-4">Mrs Dalloway</h2>
+                          <div class="flex">
+                            
+                            <div class="flex">
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">Author:	J. R. R. Tolkien</p>
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">$500</p>
+                          </div>
+                          </div>
+                          <button class="rounded-3xl  lg:px-2 py-2 w-20 lg:w-28 text-[#FFFFFF] font-[Roboto]  text-sm lg:text-lg font-medium bg-[#21B573]">Buy Now</button>
+                          
+                        </div>
+                    </div>
+                </div>
+                <!-- second -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-20">
+                    <!-- card 1 -->
+                    <div class="card  bg-base-100 shadow-xl h-auto">
+                        <figure><img src="./asset/imeage/Photos/To Kill a Mockingbird.jpg" class="w-[250px] lg:w-[331px] lg:h-[331px] mt-6 px-5 py-5" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-[#413960] font-[Poppins] text-2xl font-medium -mt-4 ">To Kill a Mockingbird</h2>
+                          <div class="flex">
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">Author:	J. R. R. Tolkien</p>
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">$500</p>
+                          </div>
+                          <button class="rounded-3xl  lg:px-2 py-2 w-20 lg:w-28 text-[#FFFFFF] font-[Roboto]  text-sm lg:text-lg font-medium bg-[#21B573]">Buy Now</button>
+                          
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/Photos/The Ginger Man.jfif" class="lg:w-[331px] lg:h-[331px] mt-6 px-5 py-5 w-[200px]" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-[#413960] font-[Poppins] text-2xl font-medium -mt-4">The Ginger Man</h2>
+                          <div class="flex">
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">Author:	J. R. R. Tolkien</p>
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">$500</p>
+                          </div>
+                          <button class="rounded-3xl  lg:px-2 py-2 w-20 lg:w-28 text-[#FFFFFF] font-[Roboto]  text-sm lg:text-lg font-medium bg-[#21B573]">Buy Now</button>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/Photos/Black Beauty.jpeg" class="lg:w-[331px] lg:h-[331px] mt-6 px-5 py-5 w-[200px]" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-[#413960] font-[Poppins] text-2xl font-medium -mt-4">Black Beauty</h2>
+                          <div class="flex">
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">Author:	J. R. R. Tolkien</p>
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">$500</p>
+                          </div>
+                          <button class="rounded-3xl  lg:px-2 py-2 w-20 lg:w-28 text-[#FFFFFF] font-[Roboto]  text-sm lg:text-lg font-medium bg-[#21B573]">Buy Now</button>
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/Photos/TheAlchemist.jpg" class="lg:w-[331px] lg:h-[331px] mt-6 px-5 py-5 w-[200px]" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-[#413960] font-[Poppins] text-2xl font-medium -mt-4">Watership Down</h2>
+                          <p class="text-[#585859] font-[Poppins] text-base font-normal">Author:	J. R. R. Tolkien </p>
+                          <button class="rounded-3xl  lg:px-2 py-2 w-20 lg:w-28 text-[#FFFFFF] font-[Roboto]  text-sm lg:text-lg font-medium bg-[#21B573]">Buy Now</button>
+                          
+                        </div>
+                    </div>
+                </div>
+                <!-- third card  -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pb-10">
+                    <!-- card 1 -->
+                    <div class="card  bg-base-100 shadow-xl h-auto">
+                        <figure><img src="./asset/imeage/Photos/TheAlchemist.jpg" class="w-[200px] lg:w-[331px] lg:h-[331px] mt-6 px-5 py-5" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-[#413960] font-[Poppins] text-2xl font-medium -mt-4 ">The Alchemist</h2>
+                          <div class="flex">
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">Author:	J. R. R. Tolkien</p>
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">$900</p>
+                          </div>
+                          <button class="rounded-3xl  lg:px-2 py-2 w-20 lg:w-28 text-[#FFFFFF] font-[Roboto]  text-sm lg:text-lg font-medium bg-[#21B573]">Buy Now</button>
+                          
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/Photos/To Kill a Mockingbird.jfif" class="lg:w-[331px] lg:h-[331px] mt-6 px-5 py-5 w-[200px]" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-[#413960] font-[Poppins] text-2xl font-medium -mt-4"> Mockingbird
+                        </h2>
+                        <div class="flex">
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">Author:	J. R. R. Tolkien</p>
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">$500</p>
+                          </div>
+                          <button class="rounded-3xl  lg:px-2 py-2 w-20 lg:w-28 text-[#FFFFFF] font-[Roboto]  text-sm lg:text-lg font-medium bg-[#21B573]">Buy Now</button>
+                          
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/Photos/DaVinciCode.jpg" class="lg:w-[331px] lg:h-[331px] mt-6 px-5 py-5 w-[200px]" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-[#413960] font-[Poppins] text-2xl font-medium -mt-4">The Da Vinci Code</h2>
+                          <div class="flex">
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">Author:	J. R. R. Tolkien</p>
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">$500</p>
+                          </div>
+                          <button class="rounded-3xl  lg:px-2 py-2 w-20 lg:w-28 text-[#FFFFFF] font-[Roboto]  text-sm lg:text-lg font-medium bg-[#21B573]">Buy Now</button>
+                          
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="card  bg-base-100 shadow-xl">
+                        <figure><img src="./asset/imeage/Photos/Littleprince.jfif" class="lg:w-[331px] lg:h-[331px] mt-6 px-5 py-5 w-[200px]" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-[#413960] font-[Poppins] text-2xl font-medium -mt-4">The Little Prince</h2>
+                          <div class="flex">
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">Author:	J. R. R. Tolkien</p>
+                            <p class="text-[#585859] font-[Poppins] text-base font-normal">$500</p>
+                          </div>
+                          <button class="rounded-3xl  lg:px-2 py-2 w-20 lg:w-28 text-[#FFFFFF] font-[Roboto]  text-sm lg:text-lg font-medium bg-[#21B573]">Buy Now</button>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer section  -->
+    <footer class="footer p-10 bg-[#282531] text-base-content text-[#FFF]">
+        <aside>
+         <p class="text-base font-[Poppins] text-[#FFF] font-medium lg:ml-24">Millions of people of all ages and from around <br> the world are improving their lives with us</p>
+        </aside> 
+        <nav>
+          <header class="footer-title">Course</header> 
+          <a class="link link-hover">Graphic Design</a>
+          <a class="link link-hover">Web Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Business</a>
+          <a class="link link-hover">Engineering</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Terms</header> 
+          <a class="link link-hover">Graphic Design</a>
+          <a class="link link-hover">Web Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Business</a>
+          <a class="link link-hover">Engineering</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Useful Link</header> 
+          <a class="link link-hover">Graphic Design</a>
+          <a class="link link-hover">Web Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Business</a>
+          <a class="link link-hover">Engineering</a>
+        </nav>
+      </footer>
+</body>
+</html>
